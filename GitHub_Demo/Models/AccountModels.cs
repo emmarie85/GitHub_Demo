@@ -13,6 +13,8 @@ namespace GitHub_Demo.Models
         public UsersContext()
             : base("DefaultConnection")
         {
+            //This is an update that I am making in my branch
+        
         }
 
         public DbSet<UserProfile> UserProfiles { get; set; }

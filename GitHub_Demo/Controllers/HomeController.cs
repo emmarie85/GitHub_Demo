@@ -32,7 +32,12 @@ namespace GitHub_Demo.Controllers
         public ActionResult MakeABranch()
         {
             //This is a branch created on my local machine.
-            returnView(); 
+
+            int i = 3; 
+
+            return View();
+
+            //I am addin some code for source code example
         }
     }
 }

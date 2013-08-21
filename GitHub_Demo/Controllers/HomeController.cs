@@ -17,7 +17,7 @@ namespace GitHub_Demo.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your app description page.";
+            ViewBag.Message = "This is a change made from git";
 
             return View();
         }

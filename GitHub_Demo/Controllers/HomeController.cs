@@ -28,5 +28,11 @@ namespace GitHub_Demo.Controllers
 
             return View();
         }
+
+        public ActionResult MakeABranch()
+        {
+            //This is a branch created on my local machine.
+            returnView(); 
+        }
     }
 }
